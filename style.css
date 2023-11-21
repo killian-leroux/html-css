@@ -1,0 +1,122 @@
+header { 
+    background-color: darkorchid;
+    width: 100%;
+    height: 70px; 
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+   
+}
+
+body { 
+    margin:0;
+}
+
+.nintendo { 
+    width:96px ;
+    height: 24px;
+    margin: 24px;
+    filter: brightness(0) invert(1);
+    
+}
+
+.logo-recherche {
+    width:28px ;
+    height: 28px;
+    align-self: center;
+}
+
+.logo-connexion {
+    width:28px ;
+    height: 28px;
+    align-self: center;
+
+    
+}
+
+.logo-souhait {
+    width:28px ;
+    height: 28px;
+    align-self: center;
+}
+
+
+.droite {
+    display: flex;
+    filter: brightness(0) invert(1);
+    
+    
+       
+}
+.div-recherche {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+.div-souhait {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+.div-connexion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    
+    
+}
+p {
+    margin:0;
+
+
+}
+
+.barre {
+    
+    background-color: blueviolet;
+    width: 88px;
+    height: 100vh;
+    margin-top: 70px;
+    flex-direction: column;
+    position: fixed;
+   
+}    
+
+.barre-latteral {
+      
+    background-color: darkorchid;
+    
+    
+}   
+
+
+.logo {
+    width: 30px;
+    height: 30px;  
+    filter: brightness(0) invert(1);
+    
+}
+
+
+
+.bloc {
+    width: 88px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1.5px rgb(108, 12, 108);
+    
+
+}
